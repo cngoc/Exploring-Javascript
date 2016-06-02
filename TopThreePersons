@@ -1,0 +1,18 @@
+var person = prompt("Who is on your mind?");
+
+switch (person){
+    case 'zachsu':
+        console.log("secrets.");
+        break;
+    
+    case 'Frank':
+        console.log("fictional.");
+        break;
+        
+    case 'nicksu':
+        console.log("daily.");
+        break;
+        
+    default:
+    console.log("That isn't whos usually on your mind.");
+}
