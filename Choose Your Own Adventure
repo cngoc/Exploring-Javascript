@@ -1,0 +1,39 @@
+var user = prompt("Do you know where you are (y/n/gurgle) ?").toLowerCase();
+
+switch (user){
+    case 'y':
+    console.log("Thats a good sign");
+    
+    var where = prompt("Where do you think you are (1/2/3) ?").toLowerCase();
+    if (where == 1 || where == 3){
+        console.log("I don't think you know where you are.");
+        
+        var response = true;
+        
+        if (where == 1 && response) {
+            console.log("You are in a park, not your house.");
+        }
+        
+        else {
+            console.log("Close. It's a park that is pretty far from where we found you originally.");
+        }
+    }
+    
+    
+    else{
+        console.log("I guess it's obvious due to being in an open field with trees all around. *chuckles.");
+    }
+    break;
+    
+    case 'n':
+        console.log("Thats concerning.");
+        break;
+        
+    case 'gurgle':
+        console.log("I think we may have hit you too hard");
+        break;
+        
+    default:
+        console.log("Hello? Can you hear me?");
+}
+    
