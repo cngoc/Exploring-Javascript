@@ -1,0 +1,18 @@
+var thoughts = prompt("On your mind?");
+
+switch (thoughts){
+    case 'Grass':
+        console.log("That plush plush ish.");
+        break;
+    
+    case 'Clouds':
+        console.log("Cloud watching is my favorite. Hands down better than watching the stars in my opinion.");
+        break;
+        
+    case 'Moss':
+        console.log("That forest of moss was phenomenal");
+        break;
+        
+    default:
+    console.log("This person, hopefully reads this and knows its about them. The task of keeping this as ambiguous as ever. I'll give you a hint. Fascination with space, sexy, intimacy of the highest caliber");
+}
