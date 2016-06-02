@@ -1,0 +1,18 @@
+var person = prompt("Who or what is on your mind?");
+
+switch (person){
+    case 'Grass':
+        console.log("That plush plush ish.");
+        break;
+    
+    case 'Cloud':
+        console.log("Cloud watching is my favorite. Hands down better than watching the stars in my opinion.");
+        break;
+        
+    case 'Nicksu':
+        console.log("I wonder what our day together today will be like.");
+        break;
+        
+    default:
+    console.log("This person, hopefully reads this and knows its about them. The task of keeping this as ambiguous as ever. I'll give you a hint. Fascination with space, sexy, intimacy of the highest caliber");
+}
