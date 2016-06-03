@@ -1,0 +1,20 @@
+var friends = {}
+    friends.bill = {
+    firstName: "Bill",
+    lastName: "Sprk",
+    number: 1-111-111-1111,
+    address: ["Bill is fictional", "He just doesn't know it yet"]
+}
+
+friends.steve = {
+    firstName: "Steve",
+    lastName: "Skill",
+    number: 1-111-111-0000,
+    address: ["Steve is also fictional", "At least he's aware of it", "Unlike Bill, whom is in denial"]
+}
+
+var list = function (friends){
+    for (var firstName in friends){
+        console.log(firstName);
+    }
+}
