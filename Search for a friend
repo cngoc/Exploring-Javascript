@@ -13,8 +13,17 @@ friends.steve = {
     address: ["Steve is also fictional", "At least he's aware of it", "Unlike Bill, whom is in denial"]
 }
 
-var list = function (friends){
+/*var list = function (friends){
     for (var firstName in friends){
         console.log(firstName);
     }
-}
+}*/
+
+var search = function (name){
+    for (var key in friends){
+        console.log(firstName);
+         if (name===friends[key].firstName){
+            console.log(friends[key]);
+            return friends[key];
+    }
+    }  
