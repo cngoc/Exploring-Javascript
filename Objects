@@ -1,0 +1,15 @@
+//Object literal notation
+var literal = {
+  start: "with a {",
+  declaring: "a : after property name",
+  atEnd: " a , after each property assignment when another property occurs after",
+  finisher: "};"
+};
+
+//object using a constructor
+var useConstructor = new Object(){
+  useConstructor.start = "with a new Object()";
+  useConstructor.declaring = "object name before property name, with a . to seperate the two and a = after property name";
+  atEnd = "a ; after each property assignment, regardless if another property occurs after";
+  finisher = "};";
+};
