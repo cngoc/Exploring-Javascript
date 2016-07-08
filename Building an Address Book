@@ -25,8 +25,15 @@ function list() {
 	}
 }
 
-/*Create a search function
-then call it passing "Jones"*/
+function add(firstName, lastName, phoneNumber, email) {
+    contacts[contacts.length] = {
+    firstName: firstName,
+    lastName: lastName,
+    phoneNumber: phoneNumber,
+    email: email
+};
+}
+    add("Chu", "Churro", "(909) 878-6775", "chuchurro@letsnom.io");
 
 function search (lastName) {
     var contactsLength = contacts.length;
